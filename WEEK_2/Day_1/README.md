@@ -1,4 +1,4 @@
-# Essentials 06: Data Encoding and Cryptography
+# **Essentials 06: Data Encoding and Cryptography**
 <br/>
 
 ## Encoding - Hide and seek for binary
