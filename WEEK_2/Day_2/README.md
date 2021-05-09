@@ -1,4 +1,4 @@
-# Essentials 07: HTTP
+# **Essentials 07: HTTP**
 <br/>
 
 ## Authentication and Cookies
