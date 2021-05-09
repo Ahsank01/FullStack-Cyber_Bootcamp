@@ -1,4 +1,7 @@
-# Authentication and Cookies
+# Essentials 07: HTTP
+<br/>
+
+## Authentication and Cookies
 - HTTP
 - Authentication
 - Cookies and Sessions
