@@ -12,4 +12,4 @@ def command_line():
     print(type(val_1)) #Ex. 2
     print(val_1 + val_2) #Ex. 3
 
-command_line()
+command_line() 
