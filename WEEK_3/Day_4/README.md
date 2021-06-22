@@ -1,7 +1,6 @@
 # Red Team 04: Shells and Shellcode
 
 ## Outline
----
 - Overview
 - Shells
 - Payloads
