@@ -9,13 +9,11 @@
 <br/>
 
 ## Shells
----
 In computing, a shell is a user interface for access to an operating system's services.
 
 <br/>
 
 ## Types of Shells
----
 - `Bash`
 - `Zsh`
 - `Sh`
@@ -24,13 +22,11 @@ In computing, a shell is a user interface for access to an operating system's se
 <br/>
 
 ## Payloads
----
 When exploiting an application, the payload is the code that the attacker actually wants to execute and often contains shell code.
 
 <br/>
 
 ## Categories of Shell Payloads
----
 - `BIND` - The shell to be shared is bound by the `listner`.
     - In most cases: we are reponsible for connecting to it.
 - `REVERSE` - The shell to be shared is bound by the `connector`.
@@ -39,13 +35,11 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Payloads with `nc`
----
 - Use the `-e` option!
 
 <br/>
 
 ## Payload Generation
----
 - Target Operating System
 - Target Architecture
 - Type of payload
@@ -56,7 +50,6 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Target Operating System
----
 - Windows
 - Linux
 - MacOSX
@@ -67,14 +60,12 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Target Architecture
----
 - `x86`
 - `x64`
 
 <br/>
 
 ## Types of Shells
----
 - Command Prompt
 - Bash Shell
 - #Meterpreter*
@@ -82,7 +73,6 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Root
----
 - Windows Executable
 - Linux Elf
 - Bash
@@ -91,7 +81,6 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Type of Payload
----
 - `Unstaged Payloads`
     - The entire payload is sent at one time
     - Can be caught by nc or netasploit
@@ -106,7 +95,6 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## msfvenom
----
     OPTIONS                            MEANING
       ||                                  ||
       \/                                  \/
@@ -119,7 +107,6 @@ When exploiting an application, the payload is the code that the attacker actual
 <br/>
 
 ## Transferring Files with Netcat
----
 To transfer file from kali to windows system, we will set up a netcat listner on port 4444 and redirect any output into a file called `incoming.exe`
 ```console
 C:\Users\offsec> nc -nlvp 4444 > incoming.exe
