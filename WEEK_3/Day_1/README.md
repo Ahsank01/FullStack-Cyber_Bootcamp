@@ -10,7 +10,7 @@
 
 <br/>
 
-## Four-Phase Pentest Process
+## Four-Phase Pentest Process 
                     Information Gathering
                              ||
                              \/
