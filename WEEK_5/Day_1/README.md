@@ -1,4 +1,4 @@
-# Red Team 11: BUffer Overflows
+# Red Team 11: Buffer Overflows
 
 ## OUTLINE
 1. Memory
