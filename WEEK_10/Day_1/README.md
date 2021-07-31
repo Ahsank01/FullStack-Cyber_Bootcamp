@@ -12,7 +12,7 @@
 
 ## MEMORY
 - Everything must be 1s and 0s
-- Often shown in hexadecimal.
+- Often shown in hexadecimal. 
 - x86/x64 refers to the amount of data that can be processes in each register.  
 1. Memory is requested by the application but distrubuted by the OS.
 2. If the application doesn't properly ask for the right amount of memory, it is possible that the application might overflow outside of the designated area.
