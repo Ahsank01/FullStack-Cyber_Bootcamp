@@ -50,7 +50,7 @@ The `stack` as a temporary storage area in RAM that allows the processor to quic
 
 
 <br>
-
+ 
 ## STEPS OF PERFORMING BO - VERIFY
 1. Run vulnerable application and attach it to Immunity Debugger.
 2. Ensure you have a script that can normally communicate target protocol.
